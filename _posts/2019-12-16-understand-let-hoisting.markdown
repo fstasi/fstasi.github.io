@@ -10,7 +10,7 @@ To understand how variables definition works in JavaScript we must get familiar 
 
 ## Block Scopes
 
-Block scoping in JavaScript is defined with the opening and closing curly braces `{}` containing at list one assignment. If no assignment is made, JavaScript will treat it as an object literal, and create a new object.
+Block scoping in JavaScript is defined with the opening and closing curly braces `{}` **containing at list one assignment**. If no assignment is made, JavaScript will treat it as an object literal, and create a new object.
 
 {% highlight javascript %}
 {
@@ -26,7 +26,7 @@ Block scoping in JavaScript is defined with the opening and closing curly braces
 
 ## Hoisting
 
-var declarations are **hoisted** at the top of the block scope. Basically the Javascript interpreter moves all variable definitions at the very beginning of their scope.
+var declarations are **hoisted** at the top of the block scope. Basically the Javascript interpreter moves all variables definitions at the very beginning of their scope.
 
 That means this code 
 
