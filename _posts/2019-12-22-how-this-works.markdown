@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How This works in JavaScript"
+title:  "How `this` works in JavaScript"
 date:   2019-12-22 11:34:10 +0100
 categories: javascript
 tags: [this, functions, scope, apply, call, bind, arrow functions]
@@ -131,8 +131,8 @@ To fix this problem we can rewrite the example like this
 const person = {
   name: 'bob',
   getName() { // shorthand for getName: function() { ...
-  return () => {
-  console.log(`${this.name} is my first name)
+    return () => {
+      console.log(`${this.name} is my first name`)
     }
   }
 }

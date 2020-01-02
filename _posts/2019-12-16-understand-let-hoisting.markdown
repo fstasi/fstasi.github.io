@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Understanding let and Javascript Hoisting"
+title:  "Understanding `let` and JavaScript Hoisting"
 date:   2019-12-15 11:34:10 +0100
 categories: javascript
 tags: [var, let, const, hoisting]

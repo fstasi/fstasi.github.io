@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 plainwhite:
+  show_excerpts: true
   name: Francesco Stasi
   tagline: I write code
   date_format: "%b %-d, %Y"
