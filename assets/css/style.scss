@@ -3,14 +3,9 @@
 
 @import "plain";
 
-.highlight {
-    margin: 0 !important;
+{% if site.plainwhite.search %}
+  @import "search";
+{% endif %}
 
-    pre {
-        padding: 1rem;
-
-        code {
-            line-height: 1.2rem;
-        }
-    }
-}
+// always on dark-mode
+@import "dark";
